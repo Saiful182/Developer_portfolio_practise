@@ -16,22 +16,24 @@ h3{
     display: block;
     
 }
-.top-left p{
+p{
     text-align: justify;
     word-spacing: 1px;
     font: 10px;
     color: dimgray;
+    margin: 20px 20px 20px 0;
 }
 .orange-color{
     color: orangered;
 }
-section{
+.flexible-container{
     display: flex;
 }
 
 .top-left,.middle-right{
     width: 50%;
     padding-left:10%;
+
     
 }
 .top-right,.middle-left{
@@ -61,4 +63,34 @@ section{
     background-image: url(images/drm-big.png);
     background-repeat: no-repeat;
     background-position:right;
+}
+
+.left-fotter,.right-fotter{
+    box-shadow:10px 10px 40px #888888;
+    width: 45%;
+    margin: 5%;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.left-fotter{
+    border-left:10px solid #FF6A4D;
+}
+.right-fotter{
+    border-left:10px solid;
+    border-image:linear-gradient(blue,#00FAFF);
+    border-image-slice: 1;
+}
+.buttom-part{
+    background-image:url(images/buttom.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+h2{
+    font-size: 40px;
+    margin: 30px 0;
+}
+h4{
+    font-size:20px;
+    margin:20px 0;
+    color:orange;
 }
