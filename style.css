@@ -29,16 +29,16 @@ section{
     display: flex;
 }
 
-.top-left{
+.top-left,.middle-right{
     width: 50%;
     padding-left:10%;
     
 }
-.top-right{
+.top-right,.middle-left{
     width: 50%;
     
 }
-.ancor-top-left{
+.ancor-top-left,.ancor-middle-right{
     background-image:linear-gradient(orange,red);
     text-decoration: none;
     padding: 10px 30px;
@@ -50,9 +50,15 @@ section{
     width:fit-content;
 }
 
-.top-right img{
+.top-right img,.middle-left img{
     width: 70%;
     height:500px;
     margin: auto;
     display: block;
+}
+.middle-banner{
+    margin: 150px 0;
+    background-image: url(images/drm-big.png);
+    background-repeat: no-repeat;
+    background-position:right;
 }
